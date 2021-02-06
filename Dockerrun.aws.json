@@ -13,7 +13,7 @@
       "image": "alphakex2/multi-server",
       "hostname": "api",
       "essential": false,
-      "memory": 128
+      "memory": 256
     },
     {
       "name": "worker",
@@ -34,7 +34,7 @@
         }
       ],
       "links":["client","server"],
-      "memory": 128
+      "memory": 256
     }
   ]
 }
